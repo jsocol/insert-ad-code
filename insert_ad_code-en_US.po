@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Insert Ad Code 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-27 22:49-0500\n"
+"PO-Revision-Date: 2007-12-27 22:49-0500\n"
+"Last-Translator: James Socol <me@jamessocol.com>\n"
+"Language-Team: James Socol <me@jamessocol.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Documents and Settings\\James\\My Documents\\Websites\\JamesSocol.com\\files\n"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:34
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:49
+msgid "Insert Ad Code Manager"
+msgstr "Insert Ad Code Manager"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:34
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:50
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:51
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:58
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:81
+msgid "Insert Ad Code"
+msgstr "Insert Ad Code"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:50
+msgid "helps turn your blog into a money-maker by automatically inserting ads&mdash;or any other HTML&mdash;into your posts."
+msgstr "helps turn your blog into a money-maker by automatically inserting ads&mdash;or any other HTML&mdash;into your posts."
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:51
+msgid "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>. <strong>Insert Ad Code</strong> does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
+msgstr "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>. <strong>Insert Ad Code</strong> does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:58
+msgid "Enable"
+msgstr "Enable"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:59
+msgid "Yes"
+msgstr "Yes"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:60
+msgid "No"
+msgstr "No"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:63
+msgid "Should I insert ads after the WordPress"
+msgstr "Should I insert ads after the Wordpress"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:63
+msgid "tag, or should I use a custom tag (see below)?"
+msgstr "tag, or should I use a custom tag (see below)?"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:68
+msgid "If I should look for a custom tag, what should the tag be?"
+msgstr "If I should look for a custom tag, what should the tag be?"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:69
+msgid "Custom Tag"
+msgstr "Custom Tag"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:70
+msgid "default"
+msgstr "default"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:73
+msgid "What code should I insert?"
+msgstr "What code should I insert?"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:78
+msgid "Update Options &raquo;"
+msgstr "Update Options &raquo;"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:81
+msgid "by"
+msgstr "by"
+
