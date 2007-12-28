@@ -3,7 +3,7 @@
  * Plugin Name: Insert Ad Code
  * Plugin URI: http://jamessocol.com/blog/2007/12/wordpress-plugin-insert-ad-code.php
  * Description: Automatically inserts ad code (ie: from Openads, AdSense, etc) into posts.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: James Socol
  * Author URI: http://jamessocol.com/
  */
@@ -25,7 +25,7 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-$js_insert_ad_code_version = '1.1.0';
+$js_insert_ad_code_version = '1.1.1';
 $js_insert_ad_code_textdomain = 'js_insert_ad_code';
 
 // Add the page to the options menu
@@ -48,7 +48,7 @@ function js_insert_ad_code_admin_page() {
 <div class="wrap">
 	<h2><?php _e('Insert Ad Code Manager', $js_insert_ad_code_textdomain); ?></h2>
 	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('helps turn your blog into a money-maker by automatically inserting ads&mdash;or any other HTML&mdash;into your posts.', $js_insert_ad_code_textdomain); ?></p>
-	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('is meant to be used with a program like <a href="http://google.com/adsense/" title="Google AdSense" target="_blank">Google AdSense</a> or an external script like <a href="http://www.openads.org/" title="Openads Ad Server" target="_blank">Openads</a>. <strong>Insert Ad Code</strong> does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code.', $js_insert_ad_code_textdomain); ?></p>
+	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('is meant to be used with a program like <a href="http://google.com/adsense/" title="Google AdSense" target="_blank">Google AdSense</a> or an external script like <a href="http://www.openads.org/" title="Openads Ad Server" target="_blank">Openads</a>', $js_insert_ad_code_textdomain); ?>. <strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code.', $js_insert_ad_code_textdomain); ?></p>
 	<form action="options.php" method="post">
 		<?php if (function_exists('wp_nonce_field')) { wp_nonce_field('update-options'); } ?>
 		<input type="hidden" name="action" value="update" />

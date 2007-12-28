@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Insert Ad Code 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-12-27 22:49-0500\n"
-"PO-Revision-Date: 2007-12-27 22:49-0500\n"
+"POT-Creation-Date: 2007-12-27 23:03-0500\n"
+"PO-Revision-Date: 2007-12-27 23:04-0500\n"
 "Last-Translator: James Socol <me@jamessocol.com>\n"
 "Language-Team: James Socol <me@jamessocol.com>\n"
 "MIME-Version: 1.0\n"
@@ -42,8 +42,14 @@ msgstr "helps turn your blog into a money-maker by automatically inserting ads&m
 #: C:\Documents
 #: and Settings\James\My
 #: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:51
-msgid "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>. <strong>Insert Ad Code</strong> does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
-msgstr "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>. <strong>Insert Ad Code</strong> does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
+msgid "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>"
+msgstr "is meant to be used with a program like <a href=\"http://google.com/adsense/\" title=\"Google AdSense\" target=\"_blank\">Google AdSense</a> or an external script like <a href=\"http://www.openads.org/\" title=\"Openads Ad Server\" target=\"_blank\">Openads</a>"
+
+#: C:\Documents
+#: and Settings\James\My
+#: Documents\Websites\JamesSocol.com\files/insert_ad_code/insert_ad_code.php:51
+msgid "does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
+msgstr "does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code."
 
 #: C:\Documents
 #: and Settings\James\My
