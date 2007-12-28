@@ -27,8 +27,6 @@ That's all. It doesn't do anything else. Read the FAQ or visit the [website](htt
 
 Any text can go in. I like to use AdSense code or Openads code, which will both rotate ads for me.
 
-You could also 
-
 = Will Insert Ad Code do ad rotation? =
 
 No.
