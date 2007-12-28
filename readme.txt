@@ -25,7 +25,7 @@ That's all. It doesn't do anything else. Read the FAQ or visit the [website](htt
 
 = What code should go into Insert Ad Code? =
 
-Any text can go in. I like to use AdSense code or Openads code, which will both rotate ads for me.
+Any text can go in. I like to use AdSense code or Openads code, both of which will rotate ads for me.
 
 = Will Insert Ad Code do ad rotation? =
 
@@ -41,27 +41,19 @@ Rotating ads is a complicated process, and I'd also have to start keeping track 
 
 I wanted to keep Insert Ad Code simple. (In the first versions, it didn't even have an admin page.) I also didn't want to reinvent the wheel, just add a few impressions to my AdSense account.
 
-= Why the `<!--more-->` tag? =
+= Why the &lt;!--more--&gt; tag? =
 
 1. I don't want to break up very short posts with ads.
 1. I don't want to go back and insert a new tag into all my old posts.
 1. I want the ads to appear once, after a couple of paragraphs, just like the `<!--more-->` tag.
-1.I want the tag to be easy to add via the WordPress editor.
+1. I want the tag to be easy to add via the WordPress TinyMCE editor.
 
 == License ==
 
-Copyright 2007  James Socol  (email : me@jamessocol.com)
+Copyright 2007  James Socol  (email: me@jamessocol.com)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA

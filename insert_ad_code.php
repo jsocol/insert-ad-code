@@ -3,7 +3,7 @@
  * Plugin Name: Insert Ad Code
  * Plugin URI: http://jamessocol.com/blog/2007/12/wordpress-plugin-insert-ad-code.php
  * Description: Automatically inserts ad code (ie: from Openads, AdSense, etc) into posts.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author: James Socol
  * Author URI: http://jamessocol.com/
  */
@@ -25,7 +25,7 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-$js_insert_ad_code_version = '1.1.1';
+$js_insert_ad_code_version = '1.1.2';
 $js_insert_ad_code_textdomain = 'js_insert_ad_code';
 
 // Add the page to the options menu
@@ -66,12 +66,12 @@ function js_insert_ad_code_admin_page() {
 		
 		<!-- define a custom tag -->
 		<p><?php _e('If I should look for a custom tag, what should the tag be?', $js_insert_ad_code_textdomain); ?><br />
-			<input type="text" name="js_insert_ad_code_custom_tag" id="js_insert_ad_code_custom_tag" value="<?php echo get_option('js_insert_ad_code_custom_tag'); ?>" style="width: 50%" /> <label for="js_insert_ad_code_custom_tag"><strong><?php _e('Custom Tag', $js_insert_ad_code_textdomain); ?></strong></label> 
+			<label for="js_insert_ad_code_custom_tag"><strong><?php _e('Custom Tag', $js_insert_ad_code_textdomain); ?></strong></label> <input type="text" name="js_insert_ad_code_custom_tag" id="js_insert_ad_code_custom_tag" value="<?php echo get_option('js_insert_ad_code_custom_tag'); ?>" style="width: 50%" /> 
 			<small>(<a href="javascript:;" onclick="document.getElementById('js_insert_ad_code_custom_tag').value='&lt;!--insert ads--&gt;';"><?php _e('default'); ?></a>)</small></p>
 		
 		<!-- finally, what should the code be? -->
 		<p><label for="js_insert_ad_code_html"><?php _e('What code should I insert?', $js_insert_ad_code_textdomain); ?></label><br />
-			<textarea name="js_insert_ad_code_html" id="js_insert_ad_code_html" style="width: 50%; height: 200px" wrap="virtual"><?php echo get_option('js_insert_ad_code_html'); ?></textarea></p>
+			<textarea name="js_insert_ad_code_html" id="js_insert_ad_code_html" style="width: 90%; height: 300px" wrap="virtual"><?php echo get_option('js_insert_ad_code_html'); ?></textarea></p>
 		
 		<!-- submit the form -->
 		<p class="submit">
