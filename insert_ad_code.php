@@ -1,9 +1,9 @@
 <?php
 /*
  * Plugin Name: Insert Ad Code
- * Plugin URI: http://jamessocol.com/blog/2007/12/wordpress-plugin-insert-ad-code.php
+ * Plugin URI: http://jamessocol.com/projects/insert_ad_code.php
  * Description: Automatically inserts ad code (ie: from Openads, AdSense, etc) into posts.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: James Socol
  * Author URI: http://jamessocol.com/
  */
@@ -25,7 +25,7 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-$js_insert_ad_code_version = '1.1.2';
+$js_insert_ad_code_version = '1.1.3';
 $js_insert_ad_code_textdomain = 'js_insert_ad_code';
 
 // Add the page to the options menu
@@ -78,7 +78,7 @@ function js_insert_ad_code_admin_page() {
 			<input type="submit" name="Submit" value="<?php _e('Update Options &raquo;') ?>" />
 		</p>
     </form>
-	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?> <?php echo $js_insert_ad_code_version; ?></strong> <?php _e('by', $js_insert_ad_code_textdomain); ?> <a href="http://jamessocol.com">James Socol</a>.</p>
+	<p><strong><a href="http://jamessocol.com/projects/insert_ad_code.php" title="<?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?>"><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?> <?php echo $js_insert_ad_code_version; ?></strong> <?php _e('by', $js_insert_ad_code_textdomain); ?> <a href="http://jamessocol.com">James Socol</a>.</p>
 </div>
 <?php
 }

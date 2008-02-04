@@ -3,7 +3,7 @@ Contributors: jamessocol
 Donate link: http://jamessocol.com/
 Tags: advertising, revenue
 Requires at least: 2.3.1
-Tested up to: 2.3.1
+Tested up to: 2.3.3
 Stable tag: trunk
 
 Insert Ad Code automatically places HTML for advertisements inline in your posts.
@@ -12,7 +12,7 @@ Insert Ad Code automatically places HTML for advertisements inline in your posts
 
 Insert Ad Code automatically inserts HTML into your posts. By default, it adds this code by the `<!--more-->` tag (though this can be changed).
 
-That's all. It doesn't do anything else. Read the FAQ or visit the [website](http://jamessocol.com/blog/2007/12/wordpress-plugin-insert-ad-code.php "jamessocol.com Insert Ad Code post").
+That's all. It doesn't do anything else. Read the FAQ or visit the [website](http://jamessocol.com/projects/insert_ad_code.php "jamessocol.com &raquo; Insert Ad Code").
 
 == Installation ==
 
