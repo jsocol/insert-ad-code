@@ -32,7 +32,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-$js_insert_ad_code_version = '1.1.3';
+$js_insert_ad_code_version = '1.1.4';
 $js_insert_ad_code_textdomain = 'js_insert_ad_code';
 
 // Add the page to the options menu
