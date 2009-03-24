@@ -3,7 +3,7 @@
  * Plugin Name: Insert Ad Code
  * Plugin URI: http://jamessocol.com/projects/insert_ad_code.php
  * Description: Automatically inserts ad code (ie: from Openads, AdSense, etc) into posts.
- * Version: 1.1.4
+ * Version: 1.2.0
  * Author: James Socol
  * Author URI: http://jamessocol.com/
  * 
@@ -32,13 +32,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-$js_insert_ad_code_version = '1.1.4';
+$js_insert_ad_code_version = '1.2.0';
 $js_insert_ad_code_textdomain = 'js_insert_ad_code';
 
 // Add the page to the options menu
 function js_insert_ad_code_admin_menu() {
 	global $js_insert_ad_code_textdomain;
 	add_options_page(__('Insert Ad Code Manager', $js_insert_ad_code_textdomain), __('Insert Ad Code', $js_insert_ad_code_textdomain), 'manage_options', __FILE__, 'js_insert_ad_code_admin_page');
+
+	// WPMU 2.7
+	if ( function_exists('register_setting') ) {
+		register_setting('js_insert_ad_code_options','js_insert_ad_code_enable');
+		register_setting('js_insert_ad_code_options','js_insert_ad_code_type');
+		register_setting('js_insert_ad_code_options','js_insert_ad_code_custom_tag');
+		register_setting('js_insert_ad_code_options','js_insert_ad_code_html');
+	}
 }
 
 /**
@@ -57,9 +65,10 @@ function js_insert_ad_code_admin_page() {
 	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('helps turn your blog into a money-maker by automatically inserting ads&mdash;or any other HTML&mdash;into your posts.', $js_insert_ad_code_textdomain); ?></p>
 	<p><strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('is meant to be used with a program like <a href="http://google.com/adsense/" title="Google AdSense" target="_blank">Google AdSense</a> or an external script like <a href="http://www.openads.org/" title="Openads Ad Server" target="_blank">Openads</a>', $js_insert_ad_code_textdomain); ?>. <strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong> <?php _e('does not rotate ads, nor keep track of impressions, clicks, or conversions. It just inserts code.', $js_insert_ad_code_textdomain); ?></p>
 	<form action="options.php" method="post">
-		<?php if (function_exists('wp_nonce_field')) { wp_nonce_field('update-options'); } ?>
+		<?php if (function_exists('settings_fields')) { settings_fields('js_insert_ad_code_options'); } else if (function_exists('wp_nonce_field')) { wp_nonce_field('update-options'); ?>
 		<input type="hidden" name="action" value="update" />
 		<input type="hidden" name="page_options" value="<?php echo join(',', $optionvars); ?>"/>
+	<?php } // if nonce_field ?>
 		
 		<!-- enable or disable insert ad code -->
 		<p><?php _e('Enable'); ?> <strong><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?></strong>?<br />
@@ -85,7 +94,7 @@ function js_insert_ad_code_admin_page() {
 			<input type="submit" name="Submit" value="<?php _e('Update Options &raquo;') ?>" />
 		</p>
     </form>
-	<p><strong><a href="http://jamessocol.com/projects/insert_ad_code.php" title="<?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?>"><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?> <?php echo $js_insert_ad_code_version; ?></strong> <?php _e('by', $js_insert_ad_code_textdomain); ?> <a href="http://jamessocol.com">James Socol</a>.</p>
+	<p><strong><a href="http://jamessocol.com/projects/insert_ad_code.php" title="<?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?>"><?php _e('Insert Ad Code', $js_insert_ad_code_textdomain); ?> <?php echo $js_insert_ad_code_version; ?></strong></a> <?php _e('by', $js_insert_ad_code_textdomain); ?> <a href="http://jamessocol.com">James Socol</a>.</p>
 </div>
 <?php
 }
